@@ -20,3 +20,5 @@ Computer Components:
 https://sketchfab.com/3d-models/computer-components-4daeb72925d140809bdfd51634a1908e#download (creator - crimsonfalcon)
 Computer Mouse:
 https://sketchfab.com/3d-models/computer-mouse-4a6e2b1cf5d54ed5b97da093ed1e74a4#download (creator - kubassa)
+Power Supply:
+https://sketchfab.com/3d-models/power-supply-11b975c08b5a4d9baa497dd734d93166 (creator - Bachklamk)
