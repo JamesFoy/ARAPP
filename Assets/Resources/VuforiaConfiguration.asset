@@ -17,8 +17,8 @@ MonoBehaviour:
     ufoLicenseKey: QWVxUE8wai8vLy8vQUFBQUtBQUJoNVFxY0U3dHZhankvWHd6UmtRVVpqaHpDY2dENDAyUlRUbGl1Vm5xMlRVSlRpcHlicU50UU45TjVBNzBqN3FBajdFTEN6ZFNaWmtzSE5GTE96bnduTm12c3V6c1psTjlCYjc1dGRxN0lvQ2V5ejdwK1VLME4yYkNkZmd3OFhXbGdLUUdXMTIvN1NvNms1V2VyTVVJdTFndExqeGtQN2Y4MWhvOWF5ZUZlWi8xRXFlMkJGMUJuWjhqdUFuMlErVFU2ejdYT3JSUGFDN0VSWHhOaEdhTGFibU42c2tZRDRkM3BycUtxVkVuNkNKWW1NTXJsMG5YdWovSUJ4UzlacnNsY3JPMFFsQ2RCSlR4NmswTnRicnRHRlFPay8zWmc0OUlnWkpsVUJkd2l4K25YY2pOTVFGWVN1TE9iNlRnWDdCZkw1OWlXbk43THFYUmh6UkxuM2lBemszRnpzT3ZnMDNJaVppVlllcFY=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 6
-    maxSimultaneousObjectTargets: 6
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
     version: 8.5.9
@@ -31,14 +31,14 @@ MonoBehaviour:
       type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
-    arcoreRequirement: 0
-    autoImportArcore: 0
+    autoInitTracker: 1
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
     deviceNameSetInEditor: 
-    turnOffWebCam: 0
+    turnOffWebCam: 1
     renderTextureLayer: 30
