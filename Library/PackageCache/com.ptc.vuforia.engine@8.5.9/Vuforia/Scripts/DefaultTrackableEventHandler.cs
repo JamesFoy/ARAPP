@@ -17,8 +17,6 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
-    public GameObject canvas;
-
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -31,11 +29,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     protected virtual void Start()
     {
-        if (canvas != null)
-        {
-            canvas.SetActive(false);
-        }
-
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
@@ -94,11 +87,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     {
         if (mTrackableBehaviour)
         {
-            if (canvas != null)
-            {
-                canvas.SetActive(true);
-            }
-
             var rendererComponents = mTrackableBehaviour.GetComponentsInChildren<Renderer>(true);
             var colliderComponents = mTrackableBehaviour.GetComponentsInChildren<Collider>(true);
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
@@ -122,11 +110,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     {
         if (mTrackableBehaviour)
         {
-            if (canvas != null)
-            {
-                canvas.SetActive(false);
-            }
-
             var rendererComponents = mTrackableBehaviour.GetComponentsInChildren<Renderer>(true);
             var colliderComponents = mTrackableBehaviour.GetComponentsInChildren<Collider>(true);
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
